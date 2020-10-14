@@ -1,0 +1,4 @@
+Convert the attached PSD file into HTML/CSS.
+
+1. Web page should be build with DIV tag.
+2. Web page should browser compatible with IE6+

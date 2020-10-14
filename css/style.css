@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Open Sans','sans serif';
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing:antiliased !important;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+a:hover,
+a:active{
+    text-decoration: none;
+}
+h1,h2,h4{
+    font-family: 'PT Sans Narrow',Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+p{
+    font-size: 15px;
+    line-height: 21px;
+}
+.btn{
+    transition: all 300ms ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: #ededed !important;
+    color: #3c3c3c !important;
+    border:1px solid #fff !important;
+}
+.fa{
+    border-radius :50px;
+    padding:10px;
+    margin:5px;
+    color:white;
+    border:1px solid white;
+}
+.top-header{
+    margin:0 auto;
+    width:75%;
+}
+.bottom-header{
+    background-color: #9af3f5;
+    margin:0 auto;
+    width:75%;
+}
+/* carousel header styles */
+.nav-bar li a{ 
+    margin-left:20px;
+}
+.nav-bar{
+    margin-top:10px;
+    float:left
+}
+.carousel-img{
+    margin-top:70px
+}
+.header-section {
+	/* padding: 50px 0; */
+	text-align: center;
+	background: url("../images/banner.png") no-repeat;
+    background-size: cover;
+    height:400px
+}
+/* .carousel-block h2 {
+	color: #fff;
+	text-transform: uppercase;
+} */
+.title{
+    color:white
+}
+.carousel-control{
+    position: absolute;
+    top: 19px;
+    width:0%;
+    color:white;
+}
+.carousel-control span:hover{
+    color:white
+}
+.section h2{
+    text-align: center;
+    color:black
+}
+/* .section button{
+    
+} */
+.section p{
+    text-align: center;
+    color:#a6a5a2
+}
+.section-blog{
+    width :60%;
+    margin:0 auto
+}
+.articel{
+    width :70%;
+    margin:0 auto;
+    margin-top:60px
+}
+.articel-blog{
+    text-align: center;
+}
+.articel-blog .fa{
+    font-size:40px;
+    color: #a6a5a2;
+
+}
+.products-section{
+    background-color:#a6a5a2 ;
+    padding-bottom: 40px;
+}
+.products-blog{
+    width :70%;
+    margin:0 auto;
+    margin-top:40px;
+
+}
+.prodect-text{
+    padding:20px;
+    text-align: center;
+}
+.product-text p{
+    color:#a6a5a2
+}
+.prodects{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+
+.section{
+    margin-top:90px;
+}
+.section p{
+    text-align: justify;
+}
+
+.footer{
+    background-color: black;
+    padding :20px;
+    margin-top:40px;
+}
+.footer ul,span{
+    float:right
+}
+.contact-info span{
+    color:white;
+}
